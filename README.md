@@ -6,7 +6,7 @@
 
 <body>
 
-<h1> RAG-based Q&A System (Whisper + FAISS + Groq)</h1>
+<h1> Jagadeeswar's RAG-based Q&A System </h1>
 
 <p>
 A <strong>Retrieval-Augmented Generation (RAG)</strong> application built with
