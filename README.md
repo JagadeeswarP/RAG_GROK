@@ -25,7 +25,7 @@ answered <strong>strictly from the retrieved content</strong>.
 
 <h2> Features</h2>
 <ul>
-  <li>📥 Multi-source input support:
+  <li>Multi-source input support:
     <ul>
       <li>Web URLs</li>
       <li>YouTube videos</li>
@@ -36,18 +36,18 @@ answered <strong>strictly from the retrieved content</strong>.
       <li>Raw text input</li>
     </ul>
   </li>
-  <li>🎧 Automatic audio & video transcription using Whisper</li>
-  <li>🧩 Local embeddings using FastEmbed (nomic-embed-text-v1.5)</li>
-  <li>🔍 Semantic search powered by FAISS</li>
-  <li>⚡ Ultra-fast inference using Groq LLMs</li>
-  <li>🛡️ Context-grounded answers with hallucination control</li>
-  <li>🧹 Automatic temporary file cleanup</li>
-  <li>🔄 Session-based vector indexing and reset support</li>
+  <li> Automatic audio & video transcription using Whisper</li>
+  <li> Local embeddings using FastEmbed (nomic-embed-text-v1.5)</li>
+  <li> Semantic search powered by FAISS</li>
+  <li> Ultra-fast inference using Groq LLMs</li>
+  <li> Context-grounded answers with hallucination control</li>
+  <li> Automatic temporary file cleanup</li>
+  <li> Session-based vector indexing and reset support</li>
 </ul>
 
 <hr />
 
-<h2>🏗️ Architecture Overview</h2>
+<h2> Architecture Overview</h2>
 
 <pre>
 User Input (Link / PDF / Audio / Text)
@@ -74,7 +74,7 @@ Answer (Based Only on Retrieved Content)
 
 <hr />
 
-<h2>🧠 Tech Stack</h2>
+<h2> Tech Stack</h2>
 
 <table border="1" cellpadding="6" cellspacing="0">
   <tr>
@@ -117,15 +117,15 @@ Answer (Based Only on Retrieved Content)
 
 <hr />
 
-<h2>📦 Installation (Local)</h2>
+<h2> Installation (Local)</h2>
 
-<h3>1️⃣ Clone the repository</h3>
+<h3> Clone the repository</h3>
 <pre>
 git clone https://github.com/JagadeeswarP/RAG_GROK.git
 cd RAG_GROK
 </pre>
 
-<h3>2️⃣ Create virtual environment (recommended)</h3>
+<h3> Create virtual environment (recommended)</h3>
 <pre>
 python -m venv .venv
 source .venv/bin/activate
@@ -136,19 +136,19 @@ source .venv/bin/activate
 .venv\Scripts\activate
 </pre>
 
-<h3>3️⃣ Install dependencies</h3>
+<h3> Install dependencies</h3>
 <pre>
 pip install -r requirements.txt
 </pre>
 
-<h3>4️⃣ Run the application</h3>
+<h3> Run the application</h3>
 <pre>
 streamlit run app.py
 </pre>
 
 <hr />
 
-<h2>🔐 API Configuration</h2>
+<h2> API Configuration</h2>
 
 <p>
 The application requires a <strong>Groq API key</strong> for LLM inference.
@@ -157,7 +157,7 @@ The key is entered securely via the Streamlit sidebar and is not stored in code.
 
 <hr />
 
-<h2>🧪 Supported Inputs</h2>
+<h2> Supported Inputs</h2>
 
 <table border="1" cellpadding="6" cellspacing="0">
   <tr>
@@ -175,7 +175,7 @@ The key is entered securely via the Streamlit sidebar and is not stored in code.
 
 <hr />
 
-<h2>🔐 Hallucination Control</h2>
+<h2> Hallucination Control</h2>
 
 <p>
 The Groq LLM is prompted to answer <strong>only using retrieved context</strong>.
@@ -185,7 +185,7 @@ the information is unavailable.
 
 <hr />
 
-<h2>⚠️ Limitations</h2>
+<h2> Limitations</h2>
 <ul>
   <li>FAISS vector store is in-memory (resets on restart)</li>
   <li>Large documents increase indexing time</li>
@@ -195,7 +195,7 @@ the information is unavailable.
 
 <hr />
 
-<h2>📈 Future Enhancements</h2>
+<h2> Future Enhancements</h2>
 <ul>
   <li>Persistent vector storage</li>
   <li>Source citation in answers</li>
@@ -206,7 +206,7 @@ the information is unavailable.
 
 <hr />
 
-<h2>👨‍💻 Author</h2>
+<h2> Author</h2>
 <p>
 <strong>Jagadeeswar Pattupogula</strong><br />
 GitHub:
